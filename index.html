@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pastel.png">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pastelería Velvet</title>
+</head>
+<body>
+    <!--encabezado-->
+    <header>
+        <div class="encabezado">
+            <img class="logo" src="./velvet.png" alt="logo pasteleria velvet">
+            <h3 class="titulo" id="inicio">Pastelería Velvet</h3>
+        </div>
+
+        <div class="nav">
+            <a class="item" href="#menu"> Menú</a>
+            <a class="item" href="#deco"> Adornos</a>
+            <a class="item" href="#pedido"> Pedidos</a>
+            <a class="item" href="#footer"> Ubicación</a>
+        </div>
+    </header>
+   
+    <!--Lista del menú-->
+    <section class="main">
+        <div class="bg-img">
+            <h1>PASTELERÍA VELVET</h1>
+            <p>Un toque de dulzura</p>
+            <button><a  class="item" id="inicio" href="#menu">Elegir pastel</a></button>
+        </div>
+    </section>
+    
+    <!--Sabores-->
+    <section class="sabores">   
+        <div class="item1">
+            <h1 id="menu">Sabores de pastel</h1>
+        </div>
+         <div class="sabor">
+            <img src="./pastel01.jpg" alt="" class="imgpastel">
+            <p>Pastel de vainilla</p><br>
+            <p><strong>$200 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="sabor">
+            <img src="./pastel02.jpg" alt="" class="imgpastel"></a>
+            <p>Pastel de Fresa</p><br>
+            <p><strong>$200 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="sabor">
+            <img src="./pastel03.jpg" alt="" class="imgpastel">
+            <p>Pastel de Chocolate</p><br>
+            <p><strong>$200 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="sabor">
+            <img src="./pastel04.jpg" alt="" class="imgpastel">
+            <p>Pastel de Almendras</p><br>
+            <p><strong>$300 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="sabor">
+            <img src="./pastel05.jpg" alt="" class="imgpastel">
+            <p>Pastel de Red velvet</p><br>
+            <p><strong>$300 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="sabor">
+            <img src="./pastel06.jpg" alt="" class="imgpastel">
+            <p>Pastel de Moka</p><br>
+            <p><strong>$250 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+    </section>
+    <!--Adornos-->
+    <section class="adornos">
+        <div class="item2">
+            <h1 id="deco">Adornos</h1>
+        </div>
+
+        <div class="adorno">
+            <img src="./adorno1.png" alt="" class="imgpastel">
+            <p>Fruta</p><br>
+            <p><strong>$50 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="adorno">
+            <img src="./adorno2.jpg" alt="" class="imgpastel">
+            <p>Mermelada de Fresa</p><br>
+            <p><strong>$25 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="adorno">
+            <img src="./adorno3.jpg" alt="" class="imgpastel">
+            <p>Mermelada de Zarzamora</p><br>
+            <p><strong>$25 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="adorno">
+            <img src="./adorno4.jpg" alt="" class="imgpastel">
+            <p>Caketopper</p><br>
+            <p><strong>$70 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="adorno">
+            <img src="./adorno5.jpg" alt="" class="imgpastel">
+            <p>Chocolate</p><br>
+            <p><strong>$35 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+        <div class="adorno">
+            <img src="./adorno6.png" alt="" class="imgpastel">
+            <p>Cobertura de ganash</p><br>
+            <p><strong>$50 MXN</strong></p>
+            <button><a class="item" href="#pedido">Comprar</a></button>
+        </div>
+    </section>
+
+    <!--Form -->
+    <section class="form">
+            <h2 id="pedido">Pedidos</h2>
+        <form action="">
+            <div class="form1">
+                <p><b>Tamaño del pastel:</b></p>
+                <label for="TamañoPastel">Elige un tamaño:</label><br>
+                <select id="TamañoPastel" name="TamañoPastel">
+                    <option value="CuatroPersonas">4 personas</option>
+                    <option value="DiezPersonas"> 10 personas</option>
+                </select>
+        
+                <p><b>Sabores</b></p>
+                 <label for="ingredientes">Elige un sabor:</label><br>
+                 <input list="ingredientes">
+            <datalist id="ingredientes">
+                    <option value="vainilla">
+                    <option value="Fresa">
+                    <option value="Chocolate">
+                    <option value="Almendras">
+                    <option value="Red Velvet">
+                    <option value="Moka">
+                    </option>
+            </datalist>
+            <br>
+        
+                <p><b>Adornos</b></p>
+            <label for="ingredientes">Elige un adorno:</label><br>
+                 <input list="decoraciones">
+                <datalist id="decoraciones">
+                    <option value="Fruta">
+                    <option value="Mermelada de fresa">
+                    <option value="Mermelada de zarzamora">
+                    <option value="Caketopper">
+                    <option value="Chocolate">
+                    <option value="Cobertura de ganash">
+                </option>
+                </datalist> <br><br>
+                <p><b>Método de pago</b></p>
+            <input type="radio" id="tarjeta" name="tarjeta" value="tarjeta">
+            <label for="tarjeta">Tarjeta débito/crédito</label><br>
+            <input type="radio" id="efectivo" name="efectivo" value="efectivo">
+            <label for="efectivo">Efectivo</label>
+            </div>
+
+            <div class="form2">
+                <p><b>Datos de envío</b></p>
+        
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Escribe tu Nombre"><br>
+        
+            <label for="Telefono">Teléfono:</label>
+            <input type="text" id="Telefono" name="Telefono" placeholder="Escribe tu Teléfono"><br>
+        
+            <label for="Correo">Correo:</label>
+            <input type="text" id="Correo" name="Correo" placeholder="Escribe tu correo"><br>
+        
+            <label for="Direccion">Dirección:</label>
+            <input type="text" id="Direccion" name="Direccion" placeholder="Escribe tu dirección completa"><br><br>
+
+            <button type="submit"><a href="" class="item">Confirmar pedido</a></button>
+            <button type="reset"><a href="" class="item">Cancelar</a></button>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer  -->
+<footer id="footer">
+    <div class="f1">
+        <a href="">  
+        <img class="logo" src="./velvet.png" alt="logo pasteleria velvet">
+        </a>
+    </div>
+    <div class="f2">
+        <h3><a href="https://goo.gl/maps/h8vVEKC7DWMpJdKH8" target="_blank">Ubicación</a></h3><br>
+    Agrícola Oriental<br>
+    Av. Javier Rojo Gómez 176, <br> Ciudad de México, México.
+    </div>
+    <div class="f3">
+        <h3>Horarios</h3><br>
+        Lunes a Sábado: 9AM a 9PM.<br> Domingos: 10AM a 8PM.<br>
+        Tel: 55 1234 5678
+    </div>
+</footer>
+
+<div class="copyright">
+    by ©  <a href="https://github.com/brenmir" target="_blank">Bren Miranda </a>| launch x 2022
+</div>
+</body>
+</html>
