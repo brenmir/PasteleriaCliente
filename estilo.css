@@ -71,7 +71,7 @@ header{
 
 
 .bg-img{
-    background: url("./pastel2.jpg") center center;
+    background: url("img/pastel2.jpg") center center;
     background-size: cover;
     width: 100%;
     height: 600px;
